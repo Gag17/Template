@@ -44,8 +44,13 @@ body {
 }
 
 .third-part-content-inner-items {
-    width: 350px;
-    height: 300px;
+    width: 400px;
+    height: 350px;
     border: 1px solid;
     margin: 10px;
+    border: none;
+}
+
+.third-part-content-inner-items img {
+    object-fit: cover;
 }

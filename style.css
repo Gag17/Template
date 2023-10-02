@@ -2,19 +2,25 @@ body {
     margin: 0;
     padding: 0;
 }
-#div1{
+#div2{
     width: 100%;
     height: 590px;
-    background-color: rgb(159, 202, 178);
-    display: flex;
-    justify-content: center;
+    background-color: rgb(159, 202, 178);  
     box-sizing: border-box;
 }
-#div1 div{
-    width: 33%;
-    height: 100%;
+
+#div-wrap{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.div-inner{
+    width: 400px;
+    height: 590px;
     margin-top: 50px;
 }
+
 .num{
     margin: 0;
     color: white;
@@ -71,4 +77,27 @@ body {
     width: 500px;
     height: 150px;
     margin: 20px;
+}
+
+
+.part-six {
+    width: 100%;
+    display: flex;
+}
+.picture-1 {
+    width: 50%;
+    height: 800px;
+    background-image: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/7a741ca8672855049de99b33/pexelsphoto1600130.jpeg");
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.picture-2 {
+    width: 50%;
+    height: 800px;
+    background-image: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/34e7285222bb5eb2b79f2c42/pexelsphoto1622419.jpeg");
+    background-position: 50% 50%;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
 }

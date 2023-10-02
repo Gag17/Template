@@ -4,7 +4,7 @@ body {
 }
 
 #div1{
-    overflow: visible;
+    background-color: black;
     background-image: url("https://images03.nicepage.com/c461c07a441a5d220e8feb1a/cbe298b85a245e2f965a5a31/b-min.jpg");
     background-position: 50% 50%;
     color: #ffffff;
@@ -12,6 +12,7 @@ body {
     display: block;
     background-size: cover;
     background: no-repeat;
+
 }
 
 #div1-inner{

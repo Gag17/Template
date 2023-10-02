@@ -204,7 +204,6 @@ body {
     background-image: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/34e7285222bb5eb2b79f2c42/pexelsphoto1622419.jpeg");
     background-position: 50% 50%;
     background-size: cover;
-    background-repeat: no-repeat;
     text-align: center;
     color: white;
 }
@@ -224,10 +223,16 @@ body {
     letter-spacing: 2px;
     padding-top: 550px;;
 }
+.part-seven {
+    height: 350px;
+    background-image: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/00f8cd68c92954df8040606c/pexelsphoto3825576.jpeg");
+    background-position: 20% 10%;
+    background-size: cover;
+}
 
 @media screen and (max-width:768px) {
     .part-six {
-        display: block;
+        display:block;
     }
     .picture-1, .picture-2 {
         width: 100%;

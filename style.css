@@ -159,27 +159,49 @@ body {
 }
 
 .part-six {
-    width: 100%;
     display: flex;
 }
+
 .picture-1 {
     width: 50%;
-    height: 800px;
     background-image: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/7a741ca8672855049de99b33/pexelsphoto1600130.jpeg");
     background-position: 50% 50%;
     background-size: cover;
 }
 .picture-2 {
     width: 50%;
-    height: 800px;
     background-image: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/34e7285222bb5eb2b79f2c42/pexelsphoto1622419.jpeg");
     background-position: 50% 50%;
-    flex-wrap: wrap;
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
+    color: white;
+}
+.picture-2 h1 {
+    font-size: 38px;
+    font-weight: 100;
+    letter-spacing: 5px;
+} 
+.picture-2 p {
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+.picture-2 h2 {
+    font-size: 25px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding-top: 550px;;
 }
 
+@media screen and (max-width:768px) {
+    .part-six {
+        display: block;
+    }
+    .picture-1, .picture-2 {
+        width: 100%;
+    }
+}
 
 @media screen and (max-width: 500px) {
     .third-part-content-inner-items {

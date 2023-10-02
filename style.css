@@ -41,6 +41,7 @@ body {
 #third-part-content {
     padding: 40px;
     box-sizing: border-box;
+    font-family: "Helvetica";
 }
 
 .third-part-content-inner {
@@ -65,6 +66,7 @@ body {
     background-color: #d8dfd0;
     padding: 50px;
     box-sizing: border-box;
+    font-family: "Helvetica";
 }
 
 #third-part-content-down-content {
@@ -79,6 +81,9 @@ body {
     margin: 20px;
 }
 
+#third-part-content-down-content-main-span {
+    font-size: 40px;
+}
 
 .part-six {
     width: 100%;

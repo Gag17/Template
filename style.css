@@ -32,7 +32,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#third-part {
+#third-part-content {
     padding: 40px;
     box-sizing: border-box;
 }
@@ -53,4 +53,22 @@ body {
 
 .third-part-content-inner-items img {
     object-fit: cover;
+}
+
+#third-part-content-down {
+    background-color: #d8dfd0;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+#third-part-content-down-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#third-part-content-down-content div {
+    width: 500px;
+    height: 150px;
+    margin: 20px;
 }

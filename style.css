@@ -68,7 +68,7 @@ body {
     font-family: "Helvetica";
 }
 
-#third-part-content-down-content {
+#third-part-content-down-content {    flex-wrap: wrap;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -85,9 +85,11 @@ body {
 }
 
 .part-six {
-    width: 100%;
-    box-sizing: border-box;
+}
+#div-wrap {
     display: flex;
+    flex-wrap: wrap;
+    width: 100%;
 }
 .picture-1 {
     width: 50%;
@@ -101,7 +103,6 @@ body {
     height: 800px;
     background-image: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/34e7285222bb5eb2b79f2c42/pexelsphoto1622419.jpeg");
     background-position: 50% 50%;
-    flex-wrap: wrap;
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;

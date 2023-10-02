@@ -10,11 +10,13 @@ body {
     justify-content: center;
     box-sizing: border-box;
 }
+
 #div1 div{
     width: 33%;
     height: 100%;
     margin-top: 50px;
 }
+
 .num{
     color: white;
     font-size: 200px;

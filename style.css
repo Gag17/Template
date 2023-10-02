@@ -4,11 +4,11 @@ body {
 }
 #div2{
     padding: 30px;
-    background-color: rgb(159, 202, 178);  
+    background-color: #d8dfd0;  
     box-sizing: border-box;
 }
 
-#div-wrap{
+.div-wrap{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -37,6 +37,52 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* #div3{
+    display: flex;
+    box-sizing: border-box;
+} */
+
+#first{
+    width: 759px;
+    height: 650px;
+    background-image: url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/c9d78a0309cd5df0a2cae47f/pexelsphoto1029844.jpeg);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#first h2{
+    margin-top: 30px;
+}
+
+#second{
+    width: 759px;
+    height: 650px;
+    background-image: url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/efc7c28fcc3c52e8bc1bc705/pexelsphoto1650627.jpeg);
+    text-align: center;
+    position: relative;
+}
+
+#bottom-div{
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+#bottom-div h1{
+    font-size: 48px;
+}
+
+#bottom-div button{
+    width: 20%;
+    height: 30%;
+    background-color: transparent;
+    color: gray;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
 #third-part-content {
     padding: 40px;
     box-sizing: border-box;
@@ -59,6 +105,12 @@ body {
 
 .third-part-content-inner-items img {
     object-fit: cover;
+    transition: filter 0.5s;
+}
+
+.third-part-content-inner-items img:hover {
+    cursor: pointer;
+    filter: brightness(85%);
 }
 
 #third-part-content-down {

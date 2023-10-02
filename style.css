@@ -59,6 +59,12 @@ body {
 
 .third-part-content-inner-items img {
     object-fit: cover;
+    transition: filter 0.5s;
+}
+
+.third-part-content-inner-items img:hover {
+    cursor: pointer;
+    filter: brightness(85%);
 }
 
 #third-part-content-down {

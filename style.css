@@ -60,6 +60,7 @@ body {
 
 .part-six {
     width: 100%;
+    box-sizing: border-box;
     display: flex;
 }
 .picture-1 {
@@ -78,4 +79,21 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
+    color: white;
+}
+.picture-2 h1 {
+    font-size: 38px;
+    font-weight: 100;
+    letter-spacing: 5px;
+} 
+.picture-2 p {
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+.picture-2 h2 {
+    font-size: 25px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding-top: 550px;;
 }

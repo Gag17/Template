@@ -68,6 +68,10 @@ body {
     font-family: "Helvetica";
 }
 
+#third-part-content-down span {
+    line-height: 1.3;
+}
+
 #third-part-content-down-content {
     display: flex;
     justify-content: center;

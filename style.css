@@ -80,7 +80,6 @@ body {
 
 #third-part-content-down-content div {
     width: 500px;
-    height: 150px;
     margin: 20px;
 }
 
@@ -127,4 +126,15 @@ body {
     font-weight: 100;
     letter-spacing: 2px;
     padding-top: 550px;;
+}
+
+
+@media screen and (max-width: 500px) {
+    .third-part-content-inner-items {
+        width: 300px;
+        height: 250px;
+    }
+    #third-part-content, #third-part-content-down {
+        padding: 5px;
+    }
 }

@@ -71,9 +71,11 @@ body {
 } */
 
 #first{
-    width: 759px;
-    height: 650px;
+    width: 50%;
+    height: 700px;
     background-image: url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/c9d78a0309cd5df0a2cae47f/pexelsphoto1029844.jpeg);
+    background-size: cover;
+    background-position: center; 
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -82,17 +84,33 @@ body {
     margin-top: 30px;
 }
 
+.div-wrap-2{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 #second{
-    width: 759px;
-    height: 650px;
+    width: 50%;
+    height: 700px;
     background-image: url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/efc7c28fcc3c52e8bc1bc705/pexelsphoto1650627.jpeg);
+    background-size: cover;
+    background-position: center; 
     text-align: center;
     position: relative;
 }
 
+@media only screen and (max-width:600px){
+    #second{
+        width: 100%;
+    }
+    #first{
+        width: 100%;
+    }
+}
+
 #bottom-div{
     width: 100%;
-    height: 20%;
     position: absolute;
     bottom: 0;
     text-align: center;
@@ -103,12 +121,13 @@ body {
 }
 
 #bottom-div button{
-    width: 20%;
-    height: 30%;
+    width: 170px;
+    height: 70px;
     background-color: transparent;
     color: gray;
     cursor: pointer;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #third-part-content {
@@ -173,12 +192,14 @@ body {
 
 .picture-1 {
     width: 50%;
+    height: 800px;
     background-image: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/7a741ca8672855049de99b33/pexelsphoto1600130.jpeg");
     background-position: 50% 50%;
     background-size: cover;
 }
 .picture-2 {
     width: 50%;
+    height: 800px;
     background-image: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/34e7285222bb5eb2b79f2c42/pexelsphoto1622419.jpeg");
     background-position: 50% 50%;
     background-size: cover;

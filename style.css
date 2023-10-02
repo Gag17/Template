@@ -24,7 +24,7 @@ body {
     width: 730px;
     min-height: 431px;
     box-shadow: 0 0 40px 4px rgba(26,26,26,0.8);
-    margin: 60px auto;
+    margin: 0px;
     background-color: transparent !important;
     opacity: 1;
     border: solid 6px #ffffff;
@@ -270,15 +270,16 @@ body {
     background-size: cover;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 800px) {
     #div1-inner{
-        width: 1140px;
+        width: 400px;
         justify-content: center;
         display: flex;
         flex-direction: column;
     }
     #div1-box{
         text-align: center;
+        width: 420px;
     }
 
     #div1-box-inner h6{
@@ -287,6 +288,32 @@ body {
 
     #div1-box-inner h1{
         text-align: center;
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+    #div1-inner{
+        width: 300px;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    #div1-box{
+        text-align: center;
+        width: 220px;
+    }
+    #div1-box-inner h6{
+        text-align: center;
+    }
+
+    #div1-box-inner h1{
+        text-align: center;
+        /* font-size: 1.5 rem; */
+    }
+
+    #div1-box-inner b{
+        font-size: 2rem;
     }
 }
 

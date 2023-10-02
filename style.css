@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
 }
-#div1{
+#div2{
     width: 100%;
     height: 590px;
     background-color: rgb(159, 202, 178);
@@ -10,11 +10,13 @@ body {
     justify-content: center;
     box-sizing: border-box;
 }
-#div1 div{
+
+#div2 div{
     width: 33%;
     height: 100%;
     margin-top: 50px;
 }
+
 .num{
     margin: 0;
     color: white;
